@@ -59,7 +59,7 @@ Una vez creado el virtual environment lo activamos para poder instalar las depen
 Instalamos las dependencias con pip:
 
 ```
-pip3 install -r flaskr/requirements.txt 
+pip3 install -r requirements.txt 
 ```
 
 Ejecutamos la aplicación:
