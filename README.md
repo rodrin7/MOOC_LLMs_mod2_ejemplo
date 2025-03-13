@@ -39,7 +39,7 @@ Una vez dentro de la carpeta, se instalan las dependencias. Para ello debe crear
 
 ```
 [LINUX/MAC] > python3 -m venv venv
-[WINDOWS] > py.exe -m venv env
+[WINDOWS] > py.exe -m venv venv
 ```
 
 Si no tiene instalado venv, Lo puede instalar de la siguiente manera:
@@ -53,7 +53,7 @@ Una vez creado el virtual environment lo activamos para poder instalar las depen
 
 ```
 [LINUX/MAC] > source venv/bin/activate
-[WINDOWS] > .\env\Scripts\activate
+[WINDOWS] > .\venv\Scripts\activate
 ```
 
 Instalamos las dependencias con pip:
