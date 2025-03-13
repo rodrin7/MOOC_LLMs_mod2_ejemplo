@@ -62,6 +62,11 @@ Instalamos las dependencias con pip:
 pip3 install -r requirements.txt 
 ```
 
+Tenemos que crear un fichero ".env" con el contenido del token de GROQ (sustituyendo XXXXX por tu API key de https://console.groq.com/keys):
+```
+GROQ_API_KEY=XXXXX
+```
+
 Ejecutamos la aplicación:
 ```
 py app.py
