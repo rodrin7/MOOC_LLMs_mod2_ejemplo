@@ -93,27 +93,27 @@
         <form id="recommendationForm">
             <div class="form-group">
                 <label for="age">Edad:</label>
-                <select id="age" name="age" required>
+                <select id="edad" name="edad" required>
                     <option value="">Selecciona tu edad</option>
-                    {% for age in ages %}
-                    <option value="{{ age }}">{{ age }}</option>
+                    {% for edad in edades %}
+                    <option value="{{ edad }}">{{ edad }}</option>
                     {% endfor %}
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="favourite_foods">Comidas Favoritas:</label>
-                <textarea id="favourite_foods" name="favourite_foods" placeholder="Lista alguna de tus comidas favoritas..." required></textarea>
+                <label for="comidas_favoritas">Comidas Favoritas:</label>
+                <textarea id="comidas_favoritas" name="comidas_favoritas" placeholder="Lista alguna de tus comidas favoritas..." required></textarea>
             </div>
             
             <div class="form-group">
-                <label for="alergy">Restricciones Diéticas o Alergias: (Opcional)</label>
-                <textarea id="alergy" name="alergy" placeholder="Lista cualquier alergia o restricción diética..." required></textarea>
+                <label for="restricciones">Restricciones Diéticas o Alergias: (Opcional)</label>
+                <textarea id="restricciones" name="restricciones" placeholder="Lista cualquier alergia o restricción diética..." required></textarea>
             </div>
 
             <div class="form-group">
-                <label for="activity_level">Nivel de Actividad:</label>
-                <select id="activity_level" name="activity_level" required>
+                <label for="nivel_actividad">Nivel de Actividad:</label>
+                <select id="nivel_actividad" name="nivel_actividad" required>
                     <option value="">Selecciona el nivel de Actividad</option>
                     <option value="sedentario',">Sedentario (Poco o ningún ejercicio)</option>
                     <option value="poco_activo">Poco Activo (1-3 días/semana)</option>
